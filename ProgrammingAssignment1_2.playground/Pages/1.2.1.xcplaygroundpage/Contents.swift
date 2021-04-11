@@ -128,7 +128,6 @@ var groupAvg: [String: Float] = [:]
 
 // Ваш код починається тут
 
-var avg_rating: Float;
 var number_of_students_in_group: Int;
 for (group, students) in sumPoints {
     sum_rating = 0;
