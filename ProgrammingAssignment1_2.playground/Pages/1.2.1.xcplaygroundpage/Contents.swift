@@ -30,7 +30,14 @@ for student in fullNameArr {
     components = student.components(separatedBy: " - ");
     studentsGroups[components[1]]?.append(components[0]);
 }
-
+studentsGroups["ІВ-81"]?.sort();
+studentsGroups["ІВ-82"]?.sort();
+studentsGroups["ІВ-83"]?.sort();
+studentsGroups["ІО-81"]?.sort();
+studentsGroups["ІО-82"]?.sort();
+studentsGroups["ІО-83"]?.sort();
+studentsGroups["ІП-83"]?.sort();
+studentsGroups["ІП-84"]?.sort();
 // Ваш код закінчується тут
 
 print("Завдання 1")
